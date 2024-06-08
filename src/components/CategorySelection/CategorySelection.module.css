@@ -25,19 +25,27 @@ label {
   margin-bottom: 10px;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #007bff; /* General accent color for checkboxes and radios */
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.checkboxGroup,
 .radioGroup {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .radioGroup label {
   margin-right: 20px;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  margin-right: 10px;
 }
 
 button {

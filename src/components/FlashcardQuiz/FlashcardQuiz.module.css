@@ -87,16 +87,20 @@ h2 {
 
 .buttons {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
-  margin: 0 10px;
+  margin: 10px 0;
   padding: 10px 20px;
   background-color: #007bff;
   color: #f0f0f0;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  width: 80%;
 }
 
 button:hover {
@@ -106,6 +110,30 @@ button:hover {
 button:disabled {
   background-color: #555;
   cursor: not-allowed;
+}
+
+button.didNotKnow {
+  background-color: #f44336; /* Red */
+}
+
+button.knewSomewhat {
+  background-color: #ff9800; /* Orange */
+}
+
+button.knewIt {
+  background-color: #4caf50; /* Green */
+}
+
+button.didNotKnow:hover {
+  background-color: #d32f2f;
+}
+
+button.knewSomewhat:hover {
+  background-color: #f57c00;
+}
+
+button.knewIt:hover {
+  background-color: #388e3c;
 }
 
 .incorrectQuestionsTable {
