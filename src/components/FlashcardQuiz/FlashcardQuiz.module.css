@@ -1,0 +1,79 @@
+/* src/components/FlashcardQuiz/FlashcardQuiz.module.css */
+.quizContainer {
+  padding: 20px;
+}
+
+.backButton {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: #ddd;
+}
+
+.progressContainer {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 20px;
+  background-color: #76c7c0;
+  transition: width 0.3s ease;
+}
+
+.progressMessage {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.flashcard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.flashcard.green {
+  background-color: lightgreen;
+}
+
+.flashcard.orange {
+  background-color: orange;
+}
+
+.flashcard.red {
+  background-color: lightcoral;
+}
+
+h2 {
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

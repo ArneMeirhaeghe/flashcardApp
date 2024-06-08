@@ -1,0 +1,633 @@
+{
+  "anatomy": {
+    "Thorax en bovenste membrum": {
+      "Sternum": {
+        "description": "Incisura jugularis sterni, angulus sterni"
+      },
+      "Clavicula": {
+        "description": "Extramitas sternalis tot extremitas acromialis"
+      },
+      "Os hyoideum": {
+        "description": "Cornua majora"
+      },
+      "Cartilago thyroidea": {
+        "description": "Bovenste bobbel"
+      },
+      "Cartilago cricoidea": {
+        "description": "Onderste bobbel"
+      },
+      "Processus xiphoideus": {
+        "description": "Onderste punt sternum"
+      },
+      "Processus transversus C1": {
+        "description": "Ventraal en caudaal van processus mastoideus schedel"
+      },
+      "M. sternocleidomastoideus": {
+        "description": "Heterolaterale rotatie en naar boven kijken"
+      },
+      "Mm. Scaleni (anterior, medius, posterior)": {
+        "description": "Diepe borstademhaling, van proc transversus naar eerste en 2e rib"
+      },
+      "A subclavia": {
+        "description": "Dorsaal midden clavicula"
+      },
+      "M. platysma": {
+        "description": "Mondhoeken naar beneden"
+      },
+      "M. trapezius": {
+        "description": "Vingers haken schouders 90°, trekken"
+      },
+      "Processus spinosus C6 en 7": {
+        "description": "C7 steekt verder uit en blijft bij nek recht"
+      },
+      "Scapula": {
+        "description": "Spina scapulae, acromion, margo medialis scapulae, angulus inferior scapulae, margo lateralis scapula"
+      },
+      "Processus coracoideus": {
+        "description": "Vooraan, net onder uitsteeksel clavicula"
+      },
+      "Tuberculum majus": {
+        "description": "Meest laterale uitsteeksel aan voorkant"
+      },
+      "Suclus intertubercularis": {
+        "description": "Tussen tuberculum minus en majus, Pees caput longum"
+      },
+      "M. biceps brachii": {
+        "description": "Flexie elleboog tegen weerstand"
+      },
+      "M. pectoralis major": {
+        "description": {
+          "Pars abdominalis": "hand op tafel drukken",
+          "Pars clavicularis en sternocostalis": "handen voor borst tegen elkaar drukken"
+        }
+      },
+      "M. serratus anterior": {
+        "description": "Gestrekte armen tegen de muur drukken"
+      },
+      "M. rhomboideus major en minor": {
+        "description": "Handen op crista iliaca, ellebogen naar dorsaal tegen weerstand"
+      },
+      "M. deltoideus": {
+        "description": {
+          "Pars anterior": "handen voor borst tegen elkaar drukken",
+          "Pars acromialis": "abductie tegen weerstand",
+          "Pars posterior": "horizontale abductie tegen weerstand"
+        }
+      },
+      "M. teres major": {
+        "description": "Vergroeit met m. latissimus dorsi"
+      },
+      "M. latissimus dorsi": {
+        "description": "Handrug op onderrug plaatsen"
+      },
+      "M. supraspinatus": {
+        "description": "Abductie arm tegen weerstand, Aanhechting in sulcus intertubercularis door hand op rug"
+      },
+      "M. infraspinatus": {
+        "description": "Onder spina scapulae, robothouding, exorotatie tegen weerstand, Aanhechting dorsaal acromium (liggen met steun op elleboog, arm in exorotatie)"
+      },
+      "Rotatorcufftendinopathie": {
+        "description": "m. supraspinatus, m. infraspinatus, m. subscapularis, m. teres minor"
+      },
+      "M. coracobrachialis": {
+        "description": "Horizontale adductie arm naar voor tegen weerstand"
+      },
+      "A axillaris": {
+        "description": "Top okselholte, mediaal onder processus coracoideus"
+      },
+      "A brachialis": {
+        "description": "Tussen m biceps brachii en m brachialis"
+      },
+      "Epicondylus medialis": {
+        "description": "Uitsteeksel mediaal elleboog"
+      },
+      "Epicondylus lateralis": {
+        "description": "Kleiner uitsteeksel lateraal elleboog"
+      },
+      "Olecranon": {
+        "description": "Dikke bol elleboog"
+      },
+      "Sulcus n ulnaris en n ulnaris": {
+        "description": "Lateraal van epicondylus medialis"
+      },
+      "Caput radii": {
+        "description": "Kuiltje distaal van epicondylus lateralis (roteert bij pro en supinatie)"
+      },
+      "Sulcus n radialis": {
+        "description": "Halverwege achterzijde humerus midden"
+      },
+      "M. biceps brachii en M. brachialis": {
+        "description": "Flexie elleboog tegen weerstand"
+      },
+      "M. triceps brachii": {
+        "description": "Elleboog extensie tegen weerstand"
+      },
+      "M. anconeus": {
+        "description": "Eindextensie elleboog"
+      },
+      "Processus styloideus radius": {
+        "description": ""
+      },
+      "Margo posterior ulnae": {
+        "description": ""
+      },
+      "Processus styloideus ulnae": {
+        "description": ""
+      },
+      "Os pisiforme": {
+        "description": "Distaal van processus styloideus (bew bij ulnaire abductie)"
+      },
+      "Hamulus ossis hamati": {
+        "description": "Hypotenar, 1cm distaal en radiaal van os pisiforme"
+      },
+      "Os scaphoideum": {
+        "description": "Bodem anatomische snuifdoos"
+      },
+      "Os capitatum": {
+        "description": "Put in verlengde os metacarpi 3"
+      },
+      "Ossa metacarpi": {
+        "description": "Vingers in hand"
+      },
+      "Falanges": {
+        "description": "Vingers"
+      },
+      "M. palmaris longus": {
+        "description": "Italiaanse beweging, pees in midden pols"
+      },
+      "M. flexor carpi radialis": {
+        "description": "Flexie en radiale abductie pols, tuberculum ossis scaphoidei"
+      },
+      "M. flexor carpi ulnaris": {
+        "description": "Flexie en ulnaire abductie pols tegen weerstand, os pisiforme"
+      },
+      "M. flexor digitorum superficialis": {
+        "description": "Vuist + flexie pols"
+      },
+      "M. pronator teres": {
+        "description": "Flexie elleboog tegen weerstand, vanuit hoek 90°"
+      },
+      "M. brachioradialis": {
+        "description": "Flexie elleboog met voorarm midden tussen pro en sup"
+      },
+      "M. extensor carpi radialis longus": {
+        "description": "Extensie pols"
+      },
+      "M. extensor carpi radialis brevis": {
+        "description": "Onder de longus"
+      },
+      "M. extensor digitorum": {
+        "description": "Vingers overstrekken"
+      },
+      "M. extensor carpi ulnaris": {
+        "description": "Ulnaire abductie pols"
+      },
+      "M. extensor pollicis longus": {
+        "description": "Ulnaire begrenzing anatomische snuifdoos"
+      },
+      "M. abductor pollicis longus en M. extensor pollicis brevis": {
+        "description": "Radiale rand anatomische snuifdoos"
+      },
+      "Spieren thenar": {
+        "description": "Duimmuis"
+      },
+      "Spieren hypothenar": {
+        "description": "Pinkmuis"
+      },
+      "Middenhandspieren": {
+        "description": ""
+      },
+      "A radialis": {
+        "description": "Ventrale zijde radius"
+      },
+      "A ulnaris en N. ulnaris": {
+        "description": "Lateraal van os pisiforme"
+      },
+      "N. medianus": {
+        "description": "Ulnaire zijde pees m. flexor carpi radialis"
+      }
+    },
+    "Onderste membrum": {
+      "Crista iliaca": {
+        "description": "Hoogste punt = thv L4-L5"
+      },
+      "Spina iliaca anterior superior": {
+        "description": "Meest ventrale deel crista iliaca"
+      },
+      "Spina iliaca posterior superior": {
+        "description": "Dorsocaudaal crista iliaca, huidkuiltjes boven billen"
+      },
+      "Tuber ischiadicum": {
+        "description": "Zitbotje, in diepte boven bilplooi (makkelijker in zijlig)"
+      },
+      "Trochanter major": {
+        "description": "Hoogste punt heup in zijlig"
+      },
+      "Caput femoris": {
+        "description": "Caudaal van ligamentum inguinale"
+      },
+      "M. gluteus maximus": {
+        "description": "Bil"
+      },
+      "M. gluteus medius": {
+        "description": {
+          "Alternation standing": "Staan op linker en rechter been",
+          "Side lying": "Zijlig: abductie heup met gestrekte knie"
+        }
+      },
+      "M. sartorius": {
+        "description": "Kleermakerszithouding, pees thv SIAS, voet proberen opheffen tegen weerstand (start onder knie andere been) (abductie van de heup"
+      },
+      "M. adductor longus": {
+        "description": "Adductie tegen weerstand"
+      },
+      "M. pectineus": {
+        "description": "Adductie tegen weerstand, lateraal van m. adductor longus"
+      },
+      "M. iliopsoas": {
+        "description": "Onder lig. Inguinale, heupflexie tegen weerstand"
+      },
+      "M. tensor fasciae latae": {
+        "description": "Van SIAS, weerstand tegen abductie, gaat over in tractus iliotibialis"
+      },
+      "Tractus iliotibialis": {
+        "description": "Van SIAS naar laterale condylus tibia"
+      },
+      "M. rectus femoris": {
+        "description": "Van SIAI, knie-extensie en heupflexie"
+      },
+      "Trigonum femorale": {
+        "description": "Tussen lig inguinale, m sartorius en m adductor longus"
+      },
+      "A femoralis": {
+        "description": "Halfweg onder lig inguinale"
+      },
+      "M. quadriceps femoris": {
+        "description": "M. rectus femoris, M. vastus medialis, M. vastus lateralis",
+        "movements": "Knie tegen tafel drukken"
+      },
+      "Hamstring": {
+        "description": "M. semitendinosus, M. semimembranosus, M. biceps femoris",
+        "movements": "Flexie knie tegen weerstand (buiklig)"
+      },
+      "M. biceps femoris": {
+        "description": "Laterale hamstring"
+      },
+      "M. semitendinosus": {
+        "description": "Duidelijke mediale hamstring, knieflexie tegen weerstand"
+      },
+      "M. semimembranosus": {
+        "description": "In diepte, net lateraal van pees semitendinosus"
+      },
+      "Pes anserinus": {
+        "description": "Mediale zijde proximale tibia, 3 pezen van dorsaal naar caudaal: semitendinosus, gracilis, sartorius"
+      },
+      "M. gracilis": {
+        "description": "Adductie van heup tegen weerstand, mediaal van semimembranosus, lateraal en posterieur van sartorius"
+      },
+      "Epicondylen femur": {
+        "description": ""
+      },
+      "Gewrichtsspleet articulatio genus": {
+        "description": "Gewrichtsspleet knie"
+      },
+      "Patella": {
+        "description": "Apex (ondergrens)"
+      },
+      "Lig patellae": {
+        "description": "Onder patella"
+      },
+      "Fossa poplitea": {
+        "description": ""
+      },
+      "Condylen tibia": {
+        "description": ""
+      },
+      "Tibia": {
+        "description": "Tuberositas tibiae, margo anterior tibiae, facies medialis"
+      },
+      "Caput fibulae": {
+        "description": ""
+      },
+      "Lig collaterale fibulare": {
+        "description": "4-houding, ronde streng"
+      },
+      "M. triceps surae": {
+        "description": "Op tenen staan, Capita m gastrocnemius in fossa poplitea (kuit), M. soleus lateraal"
+      },
+      "A poplitea": {
+        "description": "In fossa poplitea in buiklig, knie in flexie en ontspannen"
+      },
+      "N tibialis": {
+        "description": "Meest oppervlakkig in fossa poplitea"
+      },
+      "N fibularis communis": {
+        "description": "Tegen dorsale zijde fibulakop"
+      },
+      "Malleolus medialis": {
+        "description": ""
+      },
+      "Talus": {
+        "description": "Corpus tali, caput tali, tuberositas ossis navicularis, Ventraal van malleolus medialis bij plantaire flexi"
+      },
+      "Os cuneiforme mediale": {
+        "description": "1cm verder naar ventraal na os naviculare"
+      },
+      "Caput metatarsaal 1": {
+        "description": "Aan begin grote teen"
+      },
+      "Sustentaculum tali": {
+        "description": "Plateau calcaneus waar talus op rust, 1cm distaal van uiteinde malleolus medialis"
+      },
+      "Ligamentum deltoideum": {
+        "description": "Bedekt door retinaculum mediale"
+      },
+      "Os naviculare": {
+        "description": "2 cm meer naar voor vanaf talus"
+      },
+      "M. tibialis posterior": {
+        "description": "Inversie voet tegen weerstand, achter malleolus medialis"
+      },
+      "M. flexor digitorum longus": {
+        "description": "Flexie eindfalanxen tegen weerstand, achter pees m tibialis posterior"
+      },
+      "M. flexor hallucis longus": {
+        "description": "Flexie grote teen tegen weerstand, ventraal van achillespees"
+      },
+      "M. abductor hallucis": {
+        "description": "Langs hele mediale voetrand, in diepte bijna tegen achillespees"
+      },
+      "Tendo calcaneus": {
+        "description": "Achillespees"
+      },
+      "A tibialis posterior": {
+        "description": "Achter malleolus medialis, achter pees m flexor digitorum longus"
+      },
+      "Malleolus lateralis": {
+        "description": ""
+      },
+      "Calcaneus": {
+        "description": "Langs lateraal palperen, 2 cm naar voor vanaf malleolus lateralis"
+      },
+      "Trochlea fibularis": {
+        "description": "Distaal en anterieur van malleolus lateralis, eversie tegen weerstand, tussen 2 pezen fibularis brevis en longus"
+      },
+      "Sinus tarsi": {
+        "description": "Trechtervormig tussen calcaneus en talus"
+      },
+      "Tuberositas ossis metatarsi 5": {
+        "description": "Insertie m fibularis brevis"
+      },
+      "Mm. Fibulares": {
+        "description": "Eversie tegen weerstand"
+      },
+      "lijn van Chopart": {
+        "description": "Art. talocalcaneonavicularis"
+      },
+      "Lijn van Lisfranc": {
+        "description": "Art tarsometatarseae"
+      },
+      "M. tibialis anterior": {
+        "description": "Dorsiflexie + supinatie voet, lateraal van margo anterior tibiae"
+      },
+      "M. extensor hallucis longus": {
+        "description": "Dorsale flexie grote teen, lateraal van m tibialis anterior"
+      },
+      "M. extensor digitorum longus": {
+        "description": "Dorsiflexie voet, zichtbaar op voetrug"
+      },
+      "M. extensor digitorum brevis": {
+        "description": "Extensie tenen, zichtbaar op voetrug"
+      },
+      "A dorsalis pedis": {
+        "description": "Lateraal van pees van m. extensor hallucis longus"
+      },
+      "V saphena magna": {
+        "description": "Voor malleolus medialis, rechtstaan"
+      },
+      "V saphena parva": {
+        "description": "Achter malleolus lateralis, rechtstaan"
+      },
+      "Aponeurosis plantaris": {
+        "description": "Mediale rand voelen bij dorsiflexie tenen"
+      },
+      "Capita ossa metatarsales": {
+        "description": "Naar uiteinde teen toe"
+      },
+      "M. rectus abdominis": {
+        "description": "Ruglig, schouders van de grond heffen"
+      },
+      "Schuine buikspieren": {
+        "description": "Elleboog naar contralaterale knie + weerstand tegen elleboog geven (m obliquus externus)"
+      },
+      "Autochtone rugspieren": {
+        "description": "Buiklig, oprichting thorax, welving naast middellijn"
+      },
+      "Vertebra prominens": {
+        "description": "Processus spinosus C7"
+      },
+      "Angulus sterni": {
+        "description": "Rib 2"
+      },
+      "Spina scapula": {
+        "description": "T3"
+      },
+      "Anguli inferiores scapula": {
+        "description": "T7"
+      },
+      "Navel": {
+        "description": "L3"
+      },
+      "SIPS": {
+        "description": "S2"
+      }
+    },
+    "Cardiovasculair stelsel, ademhalingsstelsel, nier en urinewegen": {
+      "Sinus frontalis": {
+        "description": "Van helft orbita tot middellijn, driehoekig"
+      },
+      "Sinus maxillaris": {
+        "description": "Onder ogen, lateraal van neus"
+      },
+      "A temporalis superficialis": {
+        "description": "Ventraal van meatus acusticus externus"
+      },
+      "V temporalis superficialis": {
+        "description": "Parallel met arterie (zwelt bij valsalva)"
+      },
+      "A occipitalis": {
+        "description": "Achter basis processus mastoideus"
+      },
+      "A facialis": {
+        "description": "Onderrand corpus mandibulae"
+      },
+      "A angularis": {
+        "description": "Onder mediale ooghoek"
+      },
+      "Arcus palatoglossus": {
+        "description": "Meest ventrale verhemelteboog"
+      },
+      "Arcus palatopharyngeus": {
+        "description": "Meest dorsale verhemelteboog"
+      },
+      "Nodus lymphaticus jugulodigastricus": {
+        "description": "Boven en achter cornu majus van het tongbeen, onder angulus mandibulae"
+      },
+      "Cartilago thyroidea": {
+        "description": "Adamsappel"
+      },
+      "Os hyoideum": {
+        "description": "2 cm boven adamsappel"
+      },
+      "Cartillago cricoideum": {
+        "description": "Klein beetje onder adamsappel (kuiltje tussen)"
+      },
+      "A subclavia": {
+        "description": "Dorsaal midden clavicula"
+      },
+      "A carotis communis": {
+        "description": "Ventraal van m sternocleidomastoideus"
+      },
+      "V jugularis externa": {
+        "description": "Oppervlakkig van m sternocleidomastoideus (valsalva)"
+      },
+      "Lnn. submentales en submandibulares": {
+        "description": ""
+      },
+      "Lnn. parotidei": {
+        "description": "Ter hoogte van speekselklieren"
+      },
+      "Lnn. retroauriculares": {
+        "description": "Achter gehoorgang"
+      },
+      "Lnn. occipitales": {
+        "description": "Achterhoofd"
+      },
+      "Lnn. buccales": {
+        "description": ""
+      },
+      "Lnn. Supraclaviculares": {
+        "description": ""
+      },
+      "Lnn. Langs v jugularis interna": {
+        "description": "Langs ventraal m sternocleidomastoideus"
+      },
+      "Lnn. Langs n accessorius": {
+        "description": "Boord m. trapezius"
+      },
+      "Axillaire Lnn.": {
+        "description": "Voorarm rusten op ventrale thoraxwand/arm ondersteund door onderzoeker. Anteriores/pectorales, posteriores/subscapulares, centraal (hoog), laterales, apicales (ventraal)"
+      },
+      "Rib 2 tem 10": {
+        "description": "Tot 4 parasternaal, vanaf 5 gradueel naar lateraal"
+      },
+      "Rib 11 en 12": {
+        "description": "Dorsaal palperen vanaf crista iliaca"
+      },
+      "Diafragmakoepels": {
+        "description": "R: craniaal tot 4e ICR midclaviculair, L: 5e ICR midclaviculair"
+      },
+      "Longen": {
+        "description": "Apex: 2,5 cm boven clavicula. Margo inferior: mediaal-craniaal naar lateraal-caudaal Midclaviculair 6e rib, midaxillair 8e rib. Dorsaal: 10e rib, absolute leverdemping onder rib 6, relatieve leverdemping 6e rib tot 4e ICR. Margo anterior: links incisura cardiaca van 4e tot 6e rib. Margo lateralis: tot voorste axillaire lijn"
+      },
+      "Pleura": {
+        "description": "Craniaal: boven clavicula, onder T1. Mediaal: links en rechts naderen achter sternum. Caudaal: midclaviculair 8ste rib, midaxillair 10e rib, dorsaal 12e rib paravertebraal"
+      },
+      "Hart": {
+        "description": "Hartpunt: mediaal van medioclaviculaire lijn in 5e ICR. Onderboord: links ICR 5, rechts parasternaal 6e rib. Rechterboord: 1,5 cm naast het sternum. Craniale grens: caudale rand 3e cartilago. Aortaboog: tot in eerste ICR"
+      },
+      "Nieren": {
+        "description": "Links hoger dan rechts. Extremitas superior: R onderboord 11e rib, L bovenboord 11e rib. Extremitas inferior: R L3, L L2-L3. Margo medialis: lateraal van processus costari. Margo lateralis: mediaal van tip 12e rib"
+      },
+      "Aorta abdominalis": {
+        "description": "Buiklig, abdominale ademhaling, craniaal van navel palperen"
+      },
+      "Lnn. Inguinales superficialis": {
+        "description": "Caudaal van mediale helft lig inguinale"
+      },
+      "A femoralis": {
+        "description": "Halfweg tussen tuberculum pubicum en SIAS"
+      },
+      "A poplitea": {
+        "description": "Buiklig, gebogen knie, voet op schouder, diep in kniekuil, mediaal van n tibialis"
+      },
+      "A dorsalis pedis": {
+        "description": "Lateraal van m extensor hallucis longus"
+      },
+      "A tibialis posterior": {
+        "description": "Dorsaal van malleolus medialis"
+      },
+      "V saphena magna": {
+        "description": "Voor malleolus medialis"
+      },
+      "V saphena parva": {
+        "description": "Achter malleolus lateralis"
+      }
+    },
+    "Gastro-intestinaal stelsel": {
+      "M. masseter": {
+        "description": "Angulus mandibulae, tanden klemmen"
+      },
+      "M. temporalis": {
+        "description": "Hoog genoeg boven arcus zygomaticum, tanden klemmen"
+      },
+      "Ductus parotideus": {
+        "description": "Parallel met arcus zygomaticus, 1 cm caudaal ervan"
+      },
+      "Glandula submandibularis": {
+        "description": "Onder mandibularand, ventraal van a facialis"
+      },
+      "Glandula thyroidea": {
+        "description": "Enkel bij zwelling"
+      },
+      "Regio hypochondrica dextra": {
+        "description": "Rechts boven"
+      },
+      "Regio hypochondrica sinistra": {
+        "description": "Links boven"
+      },
+      "Regio epigastrica": {
+        "description": "Midden boven"
+      },
+      "Regio abdominalis lateralis dextra": {
+        "description": "Rechts midden"
+      },
+      "Regio abdominalis lateralis sinistra": {
+        "description": "Links midden"
+      },
+      "Regio umbilicalis": {
+        "description": "Midden midden"
+      },
+      "Fossa iliaca dextra": {
+        "description": "Rechts onder"
+      },
+      "Fossa iliaca sinistra": {
+        "description": "Links onder"
+      },
+      "Regio hypogastrica": {
+        "description": "Midden onder"
+      },
+      "Lever": {
+        "description": "Bovengrens: 4e ICR R, 5e ICR L, midclaviculair. Margo inferior: onderrand R ribbenboog, rechtlijnig naar 5e ICR links. Margo lateralis: voorste axillaire lijn rechts"
+      },
+      "Vesica biliaris": {
+        "description": "Fundus caudaal van 9e rib, komt net onder lever vandaan"
+      },
+      "Maag": {
+        "description": "Cardia: links 3 cm naast proc xiphoideus (rib 7-8). Fundus: 7e ICR (T11-T12). Pylorus: 5cm van middellijn, 5cm onder ribbenboog recht staan. Curvatura minor: regio umbilicalis. Curvatura major: in hypogastrium"
+      },
+      "Duodenum": {
+        "description": "Posterieur van dunne darm en colon transversum. Duodenujejunale overgang: in subcostaalvlak links"
+      },
+      "Pancreas": {
+        "description": "Caput: L1-L2, ventraal en rechts van werverlzuil. Corpus: in transpylorisch vlak (L1). Cauda: 7e ICR linker mid-claviculair"
+      },
+      "Milt": {
+        "description": "Lateraal: rechterzijlig, tussen rib 8 en 11 op achterste axillaire lijn. Anterieur: tussen rib 6 en 8 tussen midclaviculair en voorste axillaire lijn"
+      },
+      "Appendix": {
+        "description": "Ostium: punt van MacBurney: rechts, 1/3e van afstand SIAS-navel. Cauda: Punt van Lanz, rechts 1/3e verbindingslijn tussen beide SIAS (variatie!!)"
+      }
+    }
+  }
+}
