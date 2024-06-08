@@ -1,27 +1,35 @@
 /* src/components/FlashcardQuiz/FlashcardQuiz.module.css */
 .quizContainer {
   padding: 20px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .backButton {
   margin-bottom: 20px;
   padding: 10px 20px;
-  background-color: #f0f0f0;
-  color: #333;
-  border: 1px solid #ccc;
+  background-color: #333;
+  color: #f0f0f0;
+  border: 1px solid #444;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .backButton:hover {
-  background-color: #ddd;
+  background-color: #444;
 }
 
 .progressContainer {
   width: 100%;
-  background-color: #e0e0e0;
+  background-color: #333;
   border-radius: 5px;
   margin-bottom: 20px;
   overflow: hidden;
+  position: relative;
 }
 
 .progressBar {
@@ -30,35 +38,51 @@
   transition: width 0.3s ease;
 }
 
+.progressText {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .progressMessage {
-  color: #333;
+  color: #ffffff;
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .flashcard {
-  border: 1px solid #ddd;
-  padding: 10px;
+  border: 1px solid #444;
+  padding: 20px;
   margin-bottom: 10px;
   text-align: center;
+  background-color: #2b2b2b;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
 .flashcard.green {
-  background-color: lightgreen;
+  background-color: #4caf50;
+  color: #fff;
 }
 
 .flashcard.orange {
-  background-color: orange;
+  background-color: #ff9800;
+  color: #fff;
 }
 
 .flashcard.red {
-  background-color: lightcoral;
+  background-color: #f44336;
+  color: #fff;
 }
 
 h2 {
-  color: #333;
+  color: #f0f0f0;
 }
 
 .buttons {
@@ -69,11 +93,43 @@ button {
   margin: 0 10px;
   padding: 10px 20px;
   background-color: #007bff;
-  color: #fff;
+  color: #f0f0f0;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.incorrectQuestionsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.incorrectQuestionsTable th,
+.incorrectQuestionsTable td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+
+.incorrectQuestionsTable th {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.incorrectQuestionsTable .didNotKnow {
+  background-color: #f44336;
+}
+
+.incorrectQuestionsTable .knewSomewhat {
+  background-color: #ff9800;
 }

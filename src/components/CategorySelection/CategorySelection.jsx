@@ -51,7 +51,7 @@ const CategorySelection = ({ onStartQuiz }) => {
             </label>
           </div>
         ))}
-        <div>
+        <div className={styles.radioGroup}>
           <label>
             <input
               type="radio"

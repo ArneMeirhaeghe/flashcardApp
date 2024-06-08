@@ -13,6 +13,9 @@ const FlashcardQuiz = ({ order, onBackToCategorySelector }) => {
   const [showNextButton, setShowNextButton] = useState(false);
   const [progress, setProgress] = useState(0);
   const [showProgressMessage, setShowProgressMessage] = useState(false);
+  const [incorrectQuestions, setIncorrectQuestions] = useState([]);
+  const [buttonsDisabled, setButtonsDisabled] = useState(false);
+  const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
     if (selectedCategories.length > 0) {
@@ -39,31 +42,41 @@ const FlashcardQuiz = ({ order, onBackToCategorySelector }) => {
       setFilteredFlashcards(repeatQuestions);
       setRepeatQuestions([]);
       setCurrentFlashcardIndex(0);
+    } else {
+      setQuizFinished(true);
     }
     setShowDescription(false);
     setShowNextButton(false);
+    setButtonsDisabled(false);
     clearTimeout(descriptionTimer);
     updateProgress();
   };
 
   const handleAnswer = (confidence) => {
     console.log(`User knew the answer: ${confidence}`);
+    const currentFlashcard = filteredFlashcards[currentFlashcardIndex];
     if (confidence === "knewIt") {
       setShowDescription("green");
+      setButtonsDisabled(true);
       const timer = setTimeout(handleNextFlashcard, 3000); // Show description for 3 seconds
       setDescriptionTimer(timer);
     } else if (confidence === "knewSomewhat") {
       setShowDescription("orange");
+      setIncorrectQuestions((prev) => [
+        ...prev,
+        { ...currentFlashcard, confidence },
+      ]);
       const timer = setTimeout(() => setShowDescription(false), 5000); // Show description for 5 seconds
       setDescriptionTimer(timer);
     } else if (confidence === "didNotKnow") {
       setShowDescription("red");
-      setRepeatQuestions([
-        ...repeatQuestions,
-        filteredFlashcards[currentFlashcardIndex],
+      setRepeatQuestions((prev) => [...prev, currentFlashcard]);
+      setIncorrectQuestions((prev) => [
+        ...prev,
+        { ...currentFlashcard, confidence },
       ]);
       setShowNextButton(true);
-      console.log("Foute vraag:", filteredFlashcard);
+      console.log("Foute vraag:", currentFlashcard);
     }
   };
 
@@ -79,8 +92,61 @@ const FlashcardQuiz = ({ order, onBackToCategorySelector }) => {
     }
   };
 
-  if (filteredFlashcards.length === 0) {
+  if (filteredFlashcards.length === 0 && !quizFinished) {
     return <div>Loading...</div>;
+  }
+
+  if (quizFinished) {
+    return (
+      <div className={styles.quizContainer}>
+        <h2>Quiz Voltooid</h2>
+        {incorrectQuestions.length === 0 ? (
+          <div>
+            <p>Joepiee 10 op 10</p>
+            <button
+              className={styles.backButton}
+              onClick={onBackToCategorySelector}
+            >
+              Ga terug naar het overzicht
+            </button>
+          </div>
+        ) : (
+          <div>
+            <h2>Overzicht van foute vragen</h2>
+            <table className={styles.incorrectQuestionsTable}>
+              <thead>
+                <tr>
+                  <th>Vraag</th>
+                  <th>Antwoord</th>
+                  <th>Beschrijving</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {incorrectQuestions.map((question, index) => (
+                  <tr key={index} className={styles[question.confidence]}>
+                    <td>{question.question}</td>
+                    <td>{question.answer}</td>
+                    <td>{question.answer}</td>
+                    <td>
+                      {question.confidence === "didNotKnow"
+                        ? "Wist het niet"
+                        : "Wist het ongeveer"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <button
+              className={styles.backButton}
+              onClick={onBackToCategorySelector}
+            >
+              Ga terug naar het overzicht
+            </button>
+          </div>
+        )}
+      </div>
+    );
   }
 
   const currentFlashcard = filteredFlashcards[currentFlashcardIndex];
@@ -92,10 +158,9 @@ const FlashcardQuiz = ({ order, onBackToCategorySelector }) => {
       </button>
       <h2>Quiz</h2>
       <div className={styles.progressContainer}>
-        <div
-          className={styles.progressBar}
-          style={{ width: `${progress}%` }}
-        ></div>
+        <div className={styles.progressBar} style={{ width: `${progress}%` }}>
+          <span className={styles.progressText}>{progress}% voltooid</span>
+        </div>
       </div>
       {showProgressMessage && (
         <div className={styles.progressMessage}>
@@ -119,13 +184,24 @@ const FlashcardQuiz = ({ order, onBackToCategorySelector }) => {
               <button onClick={handleNextFlashcard}>Volgende vraag</button>
             ) : (
               <>
-                <button onClick={() => handleAnswer("didNotKnow")}>
+                <button
+                  onClick={() => handleAnswer("didNotKnow")}
+                  disabled={buttonsDisabled}
+                >
                   Wist het niet
                 </button>
-                <button onClick={() => handleAnswer("knewSomewhat")}>
+                <button
+                  onClick={() => handleAnswer("knewSomewhat")}
+                  disabled={buttonsDisabled}
+                >
                   Wist het ongeveer
                 </button>
-                <button onClick={() => handleAnswer("knewIt")}>Wist het</button>
+                <button
+                  onClick={() => handleAnswer("knewIt")}
+                  disabled={buttonsDisabled}
+                >
+                  Wist het
+                </button>
               </>
             )}
           </div>
