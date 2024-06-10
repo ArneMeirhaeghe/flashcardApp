@@ -56,10 +56,7 @@
         "description": "Flexie elleboog tegen weerstand"
       },
       "M. pectoralis major": {
-        "description": {
-          "Pars abdominalis": "hand op tafel drukken",
-          "Pars clavicularis en sternocostalis": "handen voor borst tegen elkaar drukken"
-        }
+        "description": "Pars abdominalis: hand op tafel drukken, Pars clavicularis en sternocostalis: handen voor borst tegen elkaar drukken"
       },
       "M. serratus anterior": {
         "description": "Gestrekte armen tegen de muur drukken"
@@ -68,11 +65,7 @@
         "description": "Handen op crista iliaca, ellebogen naar dorsaal tegen weerstand"
       },
       "M. deltoideus": {
-        "description": {
-          "Pars anterior": "handen voor borst tegen elkaar drukken",
-          "Pars acromialis": "abductie tegen weerstand",
-          "Pars posterior": "horizontale abductie tegen weerstand"
-        }
+        "description": "Pars anterior: handen voor borst tegen elkaar drukken, Pars acromialis: abductie tegen weerstand, Pars posterior: horizontale abductie tegen weerstand"
       },
       "M. teres major": {
         "description": "Vergroeit met m. latissimus dorsi"
@@ -215,7 +208,7 @@
         "description": "Meest ventrale deel crista iliaca"
       },
       "Spina iliaca posterior superior": {
-        "description": "Dorsocaudaal crista iliaca, huidkuiltjes boven billen"
+        "description": "Dorsocaudaal crista iliaca, huidkuilt jes boven billen"
       },
       "Tuber ischiadicum": {
         "description": "Zitbotje, in diepte boven bilplooi (makkelijker in zijlig)"
@@ -230,10 +223,7 @@
         "description": "Bil"
       },
       "M. gluteus medius": {
-        "description": {
-          "Alternation standing": "Staan op linker en rechter been",
-          "Side lying": "Zijlig: abductie heup met gestrekte knie"
-        }
+        "description": "Alternation standing: Staan op linker en rechter been, Side lying: Zijlig: abductie heup met gestrekte knie"
       },
       "M. sartorius": {
         "description": "Kleermakerszithouding, pees thv SIAS, voet proberen opheffen tegen weerstand (start onder knie andere been) (abductie van de heup"
@@ -263,12 +253,10 @@
         "description": "Halfweg onder lig inguinale"
       },
       "M. quadriceps femoris": {
-        "description": "M. rectus femoris, M. vastus medialis, M. vastus lateralis",
-        "movements": "Knie tegen tafel drukken"
+        "description": "M. rectus femoris, M. vastus medialis, M. vastus lateralis, Knie tegen tafel drukken"
       },
       "Hamstring": {
-        "description": "M. semitendinosus, M. semimembranosus, M. biceps femoris",
-        "movements": "Flexie knie tegen weerstand (buiklig)"
+        "description": "M. semitendinosus, M. semimembranosus, M. biceps femoris, Flexie knie tegen weerstand (buiklig)"
       },
       "M. biceps femoris": {
         "description": "Laterale hamstring"
