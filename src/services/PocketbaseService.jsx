@@ -1,5 +1,5 @@
 import PocketBase from "pocketbase";
 
-const pb = new PocketBase(process.env.REACT_APP_PBURL);
+const pb = new PocketBase("https://flash-carts.pockethost.io/");
 
 export default pb;

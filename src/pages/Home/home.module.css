@@ -1,0 +1,157 @@
+/* src/pages/home.module.css */
+.homeContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #76c7c0;
+}
+
+.addButton {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addButton:hover {
+  background-color: #388e3c;
+}
+
+.coursesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.courseCard {
+  position: relative;
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+}
+
+.courseCard h2 {
+  color: #76c7c0;
+  margin-bottom: 10px;
+}
+
+.courseCard p {
+  color: #f0f0f0;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.icon {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #76c7c0;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.modal h2 {
+  color: #76c7c0;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  color: #f0f0f0;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.closeButton:hover {
+  background-color: #388e3c;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2b2b2b;
+  color: #f0f0f0;
+}
+
+.addCourseButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.addCourseButton:hover {
+  background-color: #388e3c;
+}

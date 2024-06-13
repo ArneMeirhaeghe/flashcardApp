@@ -1,0 +1,156 @@
+/* src/pages/course.module.css */
+.courseContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backButton,
+.addButton,
+.startQuizButton,
+.addChapterButton,
+.closeButton {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.backButton:hover,
+.addButton:hover,
+.startQuizButton:hover,
+.addChapterButton:hover,
+.closeButton:hover {
+  background-color: #388e3c;
+}
+
+h1 {
+  color: #76c7c0;
+}
+
+.chaptersTable {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chaptersTable th,
+.chaptersTable td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+.chaptersTable th {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.modal h2 {
+  color: #76c7c0;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  color: #f0f0f0;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: #2b2b2b;
+  color: #f0f0f0;
+}
+
+.addChapterButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.addChapterButton:hover {
+  background-color: #388e3c;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.closeButton:hover {
+  background-color: #388e3c;
+}
+svg {
+  width: 20px;
+  height: 20px;
+  fill: #f0f0f0;
+  margin-left: 1rem;
+}

@@ -1,15 +1,13 @@
 // src/App.jsx
 import React from "react";
-import Home from "./pages/home";
 import { FlashcardProvider } from "./context/FlashcardContext";
 import "./App.css";
-
+import Autentication from "./pages/Authentication/Autentication";
 function App() {
   return (
     <FlashcardProvider>
-      <div className="App">
-        <Home />
-      </div>
+      <div className="App"></div>
+      <Autentication />
     </FlashcardProvider>
   );
 }
